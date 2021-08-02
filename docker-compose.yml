@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+    workerpatternredis:
+        container_name: workerpatternredis
+        build:
+            context: workerpatternredis
+            dockerfile: Dockerfile
+        image: workerpatternredis:latest
+        ports:
+            - 8888:8888
+    redis:
+        image: redis
+        ports:
+            - 6379:6379
