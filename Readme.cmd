@@ -1,7 +1,7 @@
 
 Spring Data Redis Application Implementing Thread Pool to Recieve Message Queues.
 
-This applications publishes messages to the queue retrieves them and sends alerts if the log messages are consisting of failures.
+This applications publishes messages to the queue retrieves them and sends alerts if the log messages are consisting of failures alse inserts messages.
 
 Application Recieves Messages via rest api and pushes them to queue.
 
