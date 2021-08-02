@@ -21,3 +21,4 @@ Method: POST
     "logMessage":"sending in a log message no info log"
 }
 
+Use redis cli client to login to redis and use subscribe command subscribe to alert channel
